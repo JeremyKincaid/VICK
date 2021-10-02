@@ -1,13 +1,13 @@
 body {
     width: 100vw;
     max-width: 100vw;
-    background: linear-gradient(90deg, rgba(40,38,62,1) 0%, rgba(40,38,62, 1) 60%, rgba(48,41,48,0.3) 87%, rgba(244,244,244,0) 100%), fixed right url(./vick.png) no-repeat, rgba(40,38,62,1);
+    background: linear-gradient(90deg, rgba(40,38,62,1) 0%, rgba(40,38,62, 1) 60%, rgba(48,41,48,0.3) 87%, rgba(244,244,244,0) 100%), fixed right url(/vick.png) no-repeat, rgba(40,38,62,1);
     /* background: rgb(40,38,62); */
 }
 
 @media screen and (max-width: 600px) {
     body {
-        background: linear-gradient(90deg, rgba(40,38,62,1) 0%, rgba(244,244,244,0) 100%), fixed center url(./vick.png) no-repeat, rgba(40,38,62,1);
+        background: linear-gradient(90deg, rgba(40,38,62,1) 0%, rgba(244,244,244,0) 100%), fixed center url(/vick.png) no-repeat, rgba(40,38,62,1);
     }
 }
 
